@@ -62,7 +62,7 @@
 <script setup lang="ts">
 import PicturesData from "../interfaces/Pictures";
 
-const props = defineProps({
+defineProps({
   picture: {
     type: Object as () => PicturesData,
     required: true,
